@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech2etc Ecommerce Tutorial</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="img/passika-creations-logo-dribbble_4x.jpg" class="logo"></a>
+
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-cart-arrow-down"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-cart-arrow-down"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/PC/Explorer_Config_KV.webp" width="100%" id="MainImg">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/PCS/b7bf84cf-0d32-4d1b-9cfc-a1d5b1c58a11_01.webp" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/PCS/de0237b0-8c94-40fd-8b52-5ad28a4f8361_02.webp" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/PCS/5d594a5d-ddcc-4378-9efb-489a6cb5551d_04.webp" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/PCS/ad49f888-d85f-4bb3-b657-8905e4496d6b_03.webp" width="100%" class="small-img">
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>NVIDIA</h6>
+            <h4>THE EXPLORER</h4>
+            <h2>$12999.99</h2>
+            <select>
+                <option>Select GPU</option>
+                <option>RTX 3070</option>
+                <option>RTX 3070Ti</option>
+                <option>RTX 4080</option>
+                <option>RTX 4090Ti</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>The EXPLORER is the ultimate showcase PC, the ultimate combination of art and technology, it will be
+                the centrepiece of any setup. The unique open-air design puts all your cutting-edge components on full
+                display where they belong. We only use the highest-end parts in the EXPLORER, to ensure its performance
+                matches its appearance.</span>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For New Stocks</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your E-mail Address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/passika-creations-logo-dribbble_4x.jpg">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>180 Ang Mo Kio Ave 8, Singapore 569830</p>
+            <p><strong>Phone: </strong>88627016</p>
+            <p><strong>E-mail: </strong>232418G@mymail.nyp.edu.sg</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/?utm_source=pwa_homescreen"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wish List</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg">
+                <img src="img/pay/play.jpg">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png">
+        </div>
+        <div class="copyright">
+            <p> &copy; 2023 - BOB the PC Builder</p>
+        </div>
+    </footer>
+    <script>
+        var MainImg = document.getElementById("MainImg")
+        var smallimg = document.getElementsByClassName("small-img")
+
+
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src
+        }
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src
+        }
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src
+        }
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src
+        }
+    </script>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
